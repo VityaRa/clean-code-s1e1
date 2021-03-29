@@ -13,16 +13,16 @@ body {
 .inf img {
     width: 100%;
 }
-.inf .more-inf {
+.inf .inf__more {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-    .aaa { 
+    .inf { 
         text-align: center;
     }
 }
-.centered-main-page-element {
+.container {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -61,7 +61,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for='new-task'] {
+label[for='add-task'] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -87,11 +87,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='new-task'] {
+label[for='add-task'] {
     display: block;
     margin: 0 0 20px;
 }
-#new-task {
+#add-task {
     width: 318px;
 }
 p > button:hover {
